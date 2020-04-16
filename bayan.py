@@ -112,6 +112,7 @@ class image:
 		except:
 			print('Already imported turtle...')
 		size = 5
+		turtle.screen.colormode(255)
 		turtle.pensize(size-2)
 		turtle.speed(999)
 		c = 0
